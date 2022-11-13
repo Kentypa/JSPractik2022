@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat','sans-serif';
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    background-color: rgb(247,247,247);
+
+
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.intro {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.intro_inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    color: #ff6a00
+}
+.intro_title {
+    color: #ff6a00;
+    font-size: 50px;
+    font-weight: 250;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height:1;
+}
+.intro_suptitle {
+    color: #333;
+    font-size: 75px;
+    text-align:justify;
+}
+.intro_lasttitle {
+    color: #333;
+    font-size: 25px;
+    text-align: justify;
+}
+.header{
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    text-align:left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+.nav{
+    font-size: 20px;
+    text-transform:uppercase;
+    text-align: end;
+}
+.nav_link{
+    display: inline-block;
+    vertical-aling: top;
+    margin: 15px;
+
+    color:#333;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav_link:hover {
+    color: #ff6a00;
+    text-decoration: none;
+}
+.nav_book {
+    display: inline-block;
+    vertical-aling: top;
+    margin: 15px;
+    color: #000000;
+    text-decoration: none;
+    transition: color .2s linear;
+    border: 3px rgba(255,140,0,0.75);
+    border-style: solid;
+}
+    .nav_book::before {
+        background: orange;
+        background-color: rgba(255,140,0,0.75);
+        position: absolute;
+        content: '';
+        width: 195px;
+        height: 40px;
+    }
+.nav_book_two {
+    display: inline-block;
+    vertical-aling: top;
+    margin: 15px;
+    color: #000000;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.trusted_parthner {
+    color: #333;
+    font-size: 25px;
+    text-align: justify;
+}
+.imagedown {
+float:revert;
+float:left;
+}
+.imageright {
+    float: right;
+    position: absolute;
+    top: 240px;
+    left: 1150px;
+}
